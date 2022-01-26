@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view ('home', [
@@ -31,3 +32,5 @@ Route::get('/gallery',function() {
         "title" => "Gallery"
     ]);
 });
+Route::resource('/contacts', ContactController::class);
+
