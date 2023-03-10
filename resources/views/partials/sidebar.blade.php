@@ -1,68 +1,25 @@
 <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img src="{{asset('admin/images//icon/logo.png')}}" alt="Cool Admin" />
+                    <img src="{{ asset('https://i.postimg.cc/RFBwckys/2008-i504-008-P-m005-c25-isometric-online-library-set-02-removebg-preview.png')}}" width="50" height="50">
+                    <a class="navbar-brand" style="font-family: Playfiredisplay;font-size: 24px; font-weight: bold;">Lovey</a>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="index.html">Dashboard 1</a>
-                                </li>
-                                <li>
-                                    <a href="index2.html">Dashboard 2</a>
-                                </li>
-                                <li>
-                                    <a href="index3.html">Dashboard 3</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">Dashboard 4</a>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="{{ route ('bukus.index')}}">
+                                <i class="fas fa-chart-bar"></i>Daftar Buku</a>
                         </li>
                         <li>
-                            <a href="{{ route ('contacts.index')}}">
-                                <i class="fas fa-chart-bar"></i>Data Contact Us</a>
+                            <a href="{{ route ('bukus.create')}}">
+                                <i class="fas fa-table"></i>Tambah Buku</a>
                         </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
-                        </li>
-                        <li>
-                            <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
-                        </li>
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
+                        
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="login.html">Login</a>
-                                </li>
-                                <li>
-                                    <a href="register.html">Register</a>
-                                </li>
-                                <li>
-                                    <a href="forget-pass.html">Forget Password</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-desktop"></i>UI Elements</a>
+                                
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
                                     <a href="button.html">Button</a>

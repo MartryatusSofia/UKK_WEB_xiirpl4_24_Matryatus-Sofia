@@ -12,6 +12,9 @@
     <!-- Title Page-->
     <title>Dashboard</title>
 
+    @include('sweetalert::alert')
+
+
     @include('partials/css');
 
 </head>

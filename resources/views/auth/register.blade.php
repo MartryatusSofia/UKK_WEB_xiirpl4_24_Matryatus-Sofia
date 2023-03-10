@@ -24,7 +24,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                            <img src="{{ asset('admin/images/icon/logo.png')}}" alt="CoolAdmin">
+                                <img src="{{ asset('https://i.postimg.cc/RFBwckys/2008-i504-008-P-m005-c25-isometric-online-library-set-02-removebg-preview.png')}}"  alt="BookClub" width="100" height="100">
                             </a>
                         </div>
                         <div class="login-form">
@@ -51,18 +51,12 @@
                                         <input type="checkbox" name="aggree">Agree the terms and policy
                                     </label>
                                 </div>
-                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">register</button>
-                                <div class="social-login-content">
-                                    <div class="social-button">
-                                        <button class="au-btn au-btn--block au-btn--blue m-b-20">register with facebook</button>
-                                        <button class="au-btn au-btn--block au-btn--blue2">register with twitter</button>
-                                    </div>
-                                </div>
+                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit" style="background-color: #6B728E;">register</button>
                             </form>
                             <div class="register-link">
                                 <p>
                                     Already have account?
-                                    <a href="{{route('login')}}">Login</a>
+                                    <a href="{{route('login')}}" style="color: #6B728E;">Login</a>
                                 </p>
                             </div>
                         </div>
@@ -70,7 +64,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     @include('partials/script')
